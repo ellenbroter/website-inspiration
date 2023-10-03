@@ -4,10 +4,8 @@ html {
 
 body {
 	font-family: var(--font-family-primary);
-	line-height: var(--font-leading-base);
 	color: var(--color-foreground);
 	background: var(--color-background);
-	padding: var(--spacing-small);
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -18,6 +16,77 @@ body {
 	}
 }
 
+.header {
+	height: 10rem;
+	width: 100%;
+	background-image: url('../assets/background-image23.jpeg');
+}
+
+.header-section__title {
+	padding-top: var(--spacing-medium);
+	margin-bottom: var(--spacing-medium);
+	text-align: center;
+	font-size: var(--font-size-large);
+}
+
+.header-section__intro-image {
+	display: flex;
+	justify-content: center;
+	padding-top: var(--spacing-medium);
+	margin-bottom: var(--spacing-medium);
+}
+
+.header-section__intro-image-star {
+	height: 10rem;
+	width: 10rem;
+}
+
+.header-section__intro-image-star:hover {
+	animation: rotateImg 10s linear infinite;
+}
+
+@keyframes rotateImg {
+		from {
+			transform: rotate(0deg);
+		}
+		to {
+	  transform: rotate(359deg);
+	}
+ }
+
+
+.header-section__intro-info {
+	padding-top: var(--spacing-medium);
+	margin-bottom: var(--spacing-medium);
+	font-size: var(--font-size-base);
+}
+
+h2 {
+	font-size: var(--font-size-medium);
+}
+
+.header-section__intro-buttons {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	padding-top: var(--spacing-medium);
+	margin-bottom: var(--spacing-medium);
+}
+
+.header-section__intro-buttons div {
+	padding-top: 0.25rem;
+}
+
+button {
+	padding: 0.25rem;
+	background-image: url('../assets/background-image23.jpeg');
+	border-radius: var(--spacing-small);
+	font-size: var(--font-size-small-medium);
+}
+
+button:hover {
+	font-style: italic;
+}
 
 
 .page-hero {
@@ -26,11 +95,6 @@ body {
 	margin-bottom: var(--spacing-large);
 }
 
-.page-section {
-	border-top: 1px solid var(--color-foreground);
-	padding-top: var(--spacing-small);
-	margin-bottom: var(--spacing-large);
-}
 
 .page-section__page-title,
 .page-section__page-title-small {
@@ -39,7 +103,7 @@ body {
 
 .page-section__section-title,
 .page-section__section-title-small {
-	font-family: var(--font-family-secondary);
+	font-family: var(--font-family-primary);
 	margin-bottom: var(--spacing-large);
 }
 
@@ -62,8 +126,4 @@ body {
 .page-section__section-header {
 	font-size: var(--font-size-small-medium);
 	line-height: var(--font-leading-small-medium);
-}
-
-.page-section__section-header {
-	font-weight: 600;
 }
