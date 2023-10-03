@@ -91,12 +91,14 @@ button:hover {
 
 .page-hero {
 	padding: var(--spacing-small);
-	background-image: url("../assets/background-image23.jpeg");
-	margin-bottom: var(--spacing-large);
+	margin: 0 var(--spacing-large);
 }
 
 
-.page-section__page-title,
+.page-section__page-title {
+	margin-top: var(--spacing-xsmall);
+	
+}
 .page-section__page-title-small {
 	margin-bottom: var(--spacing-small);
 }
