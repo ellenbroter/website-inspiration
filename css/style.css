@@ -17,7 +17,10 @@ body {
 }
 
 .header {
-	height: 10rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 8rem;
 	width: 100%;
 	background-image: url('../assets/background-image23.jpeg');
 }
@@ -28,32 +31,6 @@ body {
 	text-align: center;
 	font-size: var(--font-size-large);
 }
-
-.header-section__intro-image {
-	display: flex;
-	justify-content: center;
-	padding-top: var(--spacing-medium);
-	margin-bottom: var(--spacing-medium);
-}
-
-.header-section__intro-image-star {
-	height: 10rem;
-	width: 10rem;
-}
-
-.header-section__intro-image-star:hover {
-	animation: rotateImg 10s linear infinite;
-}
-
-@keyframes rotateImg {
-		from {
-			transform: rotate(0deg);
-		}
-		to {
-	  transform: rotate(359deg);
-	}
- }
-
 
 .header-section__intro-info {
 	padding-top: var(--spacing-medium);
@@ -67,10 +44,10 @@ h2 {
 
 .header-section__intro-buttons {
 	display: flex;
-	flex-flow: column nowrap;
+	flex-flow: row wrap;
 	align-items: center;
 	padding-top: var(--spacing-medium);
-	margin-bottom: var(--spacing-medium);
+	gap: var(--spacing-small);
 }
 
 .header-section__intro-buttons div {
@@ -88,44 +65,11 @@ button:hover {
 	font-style: italic;
 }
 
-
-.page-hero {
-	padding: var(--spacing-small);
-	margin: 0 var(--spacing-large);
-}
-
-
 .page-section__page-title {
 	margin-top: var(--spacing-xsmall);
 	
 }
+
 .page-section__page-title-small {
 	margin-bottom: var(--spacing-small);
-}
-
-.page-section__section-title,
-.page-section__section-title-small {
-	font-family: var(--font-family-primary);
-	margin-bottom: var(--spacing-large);
-}
-
-.page-section__page-title,
-.page-section__section-title {
-	font-size: var(--font-size-small-medium);
-	line-height: var(--font-leading-medium);
-}
-
-.page-section__page-title-small {
-	font-size: var(--font-size-small);
-	line-height: var(--font-leading-small);
-}
-
-.page-section__section-title-small {
-	font-size: var(--font-size-medium);
-	line-height: var(--font-leading-medium);
-}
-
-.page-section__section-header {
-	font-size: var(--font-size-small-medium);
-	line-height: var(--font-leading-small-medium);
 }
