@@ -1,0 +1,18 @@
+html {
+	font-size: var(--font-size-base);
+}
+
+body {
+	font-family: var(--font-family-primary);
+	color: var(--color-foreground);
+	background-image: url('../assets/background-image23.jpeg');
+}
+
+.bielkeyang {
+	background-image: ;
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	gap: var(--spacing-medium);
+	padding: var(--spacing-small);
+	margin: 0 var(--spacing-large);
+}
