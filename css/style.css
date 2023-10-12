@@ -6,7 +6,6 @@ body {
 	font-family: var(--font-family-primary);
 	color: var(--color-foreground);
 	background: var(--color-background);
-	-webkit-font-smoothing: antialiased;
 }
 
 @media screen and (min-width: 1920px) {
@@ -38,10 +37,6 @@ body {
 	font-size: var(--font-size-base);
 }
 
-h2 {
-	font-size: var(--font-size-medium);
-}
-
 .header-section__intro-buttons {
 	display: flex;
 	flex-flow: row wrap;
@@ -50,7 +45,7 @@ h2 {
 	gap: var(--spacing-small);
 }
 
-.header-section__intro-buttons div {
+.header-section__intro-buttons {
 	padding-top: 0.25rem;
 }
 
@@ -67,9 +62,17 @@ button:hover {
 
 .page-section__page-title {
 	margin-top: var(--spacing-xsmall);
-	
+	font-size: var(--font-size-small-medium);
 }
 
 .page-section__page-title-small {
 	margin-bottom: var(--spacing-small);
+	font-size: var(--font-size-small);
+}
+
+.hover-effect {
+	transition: transform .1s;
+}
+.hover-effect:hover {
+	transform:skewX(-1.5deg);
 }
