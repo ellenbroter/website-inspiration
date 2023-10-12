@@ -1,6 +1,5 @@
 :root {
 	--color-foreground: black;
-	--color-background: white;
 	--color-accent-1: rgb(231, 241, 254);
 	
 	--font-family-primary: 'Whyte', sans-serif;
@@ -9,13 +8,15 @@
 	--font-size-small: 0.8rem;
 	--font-size-small-medium: 1rem;
 	--font-size-medium: 1.4rem;
-	--font-size-large: 1.8rem;
+	--font-size-large: 2rem;
 
 	--font-leading-base: 1rem;
 	--font-leading-small: 0.8rem;
 	--font-leading-small-medium: 1.2rem;
 	--font-leading-medium: 1.6rem;
 	--font-leading-large: 2rem;
+
+	-webkit-font-smoothing: antialiased;
 
 	--spacing-xsmall: 0.5rem;
 	--spacing-small: var(--font-leading-base);
