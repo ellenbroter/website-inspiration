@@ -15,7 +15,7 @@ body {
 	}
 }
 
-.header {
+header {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -50,7 +50,7 @@ body {
 }
 
 button {
-	padding: 0.25rem;
+	padding: 0.35rem;
 	background-image: url('../assets/background-image23.jpeg');
 	border-radius: var(--spacing-small);
 	font-size: var(--font-size-small-medium);
@@ -75,4 +75,13 @@ button:hover {
 }
 .hover-effect:hover {
 	transform:skewX(-1.5deg);
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 8rem;
+	width: 100%;
+	background-image: url('../assets/background-image23.jpeg');
 }
