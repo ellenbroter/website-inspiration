@@ -20,7 +20,7 @@ We encourage you to explore the various websites linked here and draw inspiratio
 
 ## Getting Started
 
-To visit the website, follow this link: [Norwegian Design & Technology Inspiration](https://www.yourwebsite.com)
+To visit the website, follow this link: [https://website-inspiration.netlify.app/](https://website-inspiration.netlify.app/)
 
 ## Usage
 
